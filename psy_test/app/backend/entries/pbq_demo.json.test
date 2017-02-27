@@ -1,0 +1,55 @@
+{
+  "test_name": "PBQ_demo",
+  "instructions": "Por favor, lea a continuación las declaraciones y la escala de CUÁNTO CREE CADA UNA. Trate de juzgar cómo se siente acerca de su declaración la mayor parte del tiempo.",
+  "entries": [
+    {
+      "entry_name": "ev",
+      "entry_label": "Ev1",
+      "entry_question": "Soy socialmente inepto e indeseable en el trabajo y/o situaciones sociales.",
+      "questions": [
+        {"value": 4, "text":	"Creo totalmente"},
+        {"value": 3, "text":	"Creo mucho"},
+        {"value": 2, "text":	"Creo moderadamente"},
+        {"value": 1, "text":	"Creo poco"},
+        {"value": 0, "text":	"No lo creo"}
+      ]
+    },
+    {
+      "entry_name": "ev",
+      "entry_label": "Ev2",
+      "entry_question": "Debo evitar situaciones desagradables a toda costa.",
+      "questions": [
+        {"value": 4, "text":	"Creo totalmente"},
+        {"value": 3, "text":	"Creo mucho"},
+        {"value": 2, "text":	"Creo moderadamente"},
+        {"value": 1, "text":	"Creo poco"},
+        {"value": 0, "text":	"No lo creo"}
+      ]
+    },
+
+    {
+      "entry_name": "dep",
+      "entry_label": "Dep1",
+      "entry_question": "Necesito a alguien disponible en todo momento para que me ayude a llevar a cabo lo que tengo que hacer o en caso de que algo malo suceda.",
+      "questions": [
+        {"value": 4, "text":	"Creo totalmente"},
+        {"value": 3, "text":	"Creo mucho"},
+        {"value": 2, "text":	"Creo moderadamente"},
+        {"value": 1, "text":	"Creo poco"},
+        {"value": 0, "text":	"No lo creo"}
+      ]
+    },
+    {
+      "entry_name": "dep",
+      "entry_label": "Dep2",
+      "entry_question": "Lo peor que me puede pasar es ser abandonado.",
+      "questions": [
+        {"value": 4, "text":	"Creo totalmente"},
+        {"value": 3, "text":	"Creo mucho"},
+        {"value": 2, "text":	"Creo moderadamente"},
+        {"value": 1, "text":	"Creo poco"},
+        {"value": 0, "text":	"No lo creo"}
+      ]
+    }
+  ]
+}
