@@ -4,6 +4,8 @@ require_relative '..\..\..\backend\controllers\TestReportGenerator'
 require_relative '..\..\..\backend\utilities\util'
 include ColorSchemes
 
+def init_login(icon_path)
+
 # @@palette = ColorSchemes.palette(ColorSchemes::Modern_and_Clean)
 # @@palette = ColorSchemes.palette(ColorSchemes::Elegant_and_Sophisticated)
 @@palette = ColorSchemes.palette(ColorSchemes::Clean_Gradients_and_Fresh_Blues)
@@ -14,6 +16,8 @@ include ColorSchemes
 @@hide_entry_labels = true
 
 Shoes.app(title: "Psytest") do
+  app.set_window_icon_path(icon_path)
+
   @login_stack = stack do #-----------------------------------------------------
 
     stack do
@@ -321,4 +325,6 @@ Shoes.app(title: "Psytest") do
       end
     end
   end #-------------------------------------------------------------------------
+end
+
 end
